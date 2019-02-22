@@ -1,1 +1,20 @@
 // Mixins Here
+.btn-mixin(@bg-color, @font-color, @btn-width){
+    background: @bg-color;
+    color: @font-color;
+    width: @btn-width;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.6rem;
+}
+
+.mobile-width(){
+    width: 95%;
+    margin: 0 auto;
+}
+
+.flex-mixin(){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
