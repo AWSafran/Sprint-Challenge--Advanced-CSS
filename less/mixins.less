@@ -5,7 +5,12 @@
     width: @btn-width;
     text-align: center;
     border-radius: 5px;
-    font-size: 1.6rem;
+    border: 1px solid @bg-color;
+
+    &:hover{
+        color: @bg-color;
+        background: @font-color;
+    }
 }
 
 .mobile-width(){
@@ -15,6 +20,7 @@
 
 .flex-mixin(){
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
+    padding: 0;
 }
