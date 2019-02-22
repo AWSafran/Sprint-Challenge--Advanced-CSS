@@ -171,10 +171,20 @@ nav .nav-container {
   margin: 0 auto;
   padding-top: 10px;
 }
+@media (max-width: 500px) {
+  nav .nav-container {
+    max-width: 500px;
+  }
+}
 nav .nav-container h1 {
   font-size: 4.2rem;
   text-align: center;
   margin: 0 auto 10px;
+}
+@media (max-width: 500px) {
+  nav .nav-container h1 {
+    font-size: 3.6rem;
+  }
 }
 nav .nav-container .links {
   margin: 0 auto;
@@ -182,11 +192,21 @@ nav .nav-container .links {
   justify-content: space-between;
   width: 50%;
 }
+@media (max-width: 500px) {
+  nav .nav-container .links {
+    width: 85%;
+  }
+}
 nav .nav-container .links a {
   text-decoration: none;
   font-size: 1.6rem;
   color: #454A59;
   margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  nav .nav-container .links a {
+    font-size: 1.4rem;
+  }
 }
 footer {
   color: #22283B;
